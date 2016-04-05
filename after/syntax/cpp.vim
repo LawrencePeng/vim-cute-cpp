@@ -38,8 +38,9 @@ syntax match cppOperator "\<list\>" conceal cchar=ℒ
 
 syntax keyword cppOperator void conceal cchar=⊥
 
-syntax keyword cppOperator false conceal cchar=𝐓
-syntax keyword cppOperator true conceal cchar=𝐅
+syntax keyword cppOperator false conceal cchar=𝐅
+syntax keyword cppOperator true conceal cchar=𝐓
+
 
 syntax keyword cppOperator function conceal cchar=λ
 syntax keyword cppOperator return conceal cchar=↵
