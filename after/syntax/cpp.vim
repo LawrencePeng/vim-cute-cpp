@@ -23,7 +23,7 @@ syntax match cppOperator "\<sqrt\>" conceal cchar=√
 syntax match cppOperator ">>" conceal cchar=»
 syntax match cppOperator "<<" conceal cchar=«
 
-syntax match cppOperator "NULL" conceal cchar=⊥
+syntax keyword cppOperator NULL conceal cchar=⊥
 syntax keyword cppOperator nullptr conceal cchar=⊥
 
 syntax keyword cppOperator bool conceal cchar=𝔹
